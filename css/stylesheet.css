@@ -8,6 +8,7 @@
 .insidetopcontainer{
     max-width: 70%;
     margin-left: 15%;
+    margin-right: 15%;
     padding-bottom: 50px;
 }
 #topsecondcontainer{
@@ -27,6 +28,7 @@
     display: flex;
     padding: 10px;
     margin-bottom: 50px;
+    border-bottom: 1px solid #969696;
 }
 .navtems{
     flex: 1;
@@ -43,6 +45,107 @@
     color: #f9faf8;
 }
 .webnamepara{
-    font-size: 18px;
+    font-size: 12px;
     color: #e5e7eb;
+}
+.webname input{
+    width: 130px;
+    background-color: #3882f6 ;
+    color: #f9fafb;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #3882f6;
+}
+.showcasecontainer{
+    max-width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 30px 0 60px 0;
+    text-align: center;
+
+    gap: 20px;
+}
+.showcaseheading{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.showcaseitem{
+    width: 110px;
+}
+.showcasebox{
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+}
+.showcase{
+    display: flex;
+    justify-content: space-between;
+}
+.quotecontainer{
+    padding: 60px 0 40px 0;
+    background-color: #e5e7eb;
+}
+.quotebox{
+    max-width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.quotepara{
+    text-align: justify;
+    font-size: 22px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+.quoteauthor{
+    margin-top: -10px;
+    text-align: right;
+}
+.actioncontainer{
+    padding: 60px 0;
+}
+.actionbox{
+    color: #e5e7eb;
+    max-width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 30px 40px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+}
+.actiontext{
+    flex: 2 1 auto;
+}
+.actionheading{
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+}
+.actionpara{
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#actionbutton input{
+    width: 110px;
+    background-color: #3882f6 ;
+    color: #f9fafb;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #f9fafb;
+}
+.footercontainer{
+    background-color: #1f2937;
+    color:#e5e7eb;
+    text-align: center;
+    padding: 15px 0;
+}
+.footerpara{
+    font-size: 14px;
 }
